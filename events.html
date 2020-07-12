@@ -1,0 +1,29 @@
+
+<html>
+	<head>
+		<title>Events Demo</title>
+	</head>
+	
+	<body>
+		<h1>My name is Shubham. <br> I am practicing events demo.</h1>
+		<button onkeypress="func1()">Click me</button>
+		<button onkeyup="func2()">Click me</button>
+		<button onkeydown="func3()">Click me</button>
+	</body>
+	
+	<script type="text/javascript">
+		function func1(){
+			document.body.style.color="000";
+			document.body.style.backgroundColor="25D366";
+		}
+		function func2(){
+			document.body.setAttribute(
+				"style","background-color:3b5999"
+			);
+		}
+		function func3(){
+			document.body.style.color="000";
+			document.body.style.backgroundColor="cd201f";
+		}
+	</script>
+</html>
